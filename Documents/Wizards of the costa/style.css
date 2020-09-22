@@ -1,6 +1,10 @@
+:root {
+  --primary-border-color: #1C0221;
+}
+
 #sidebar {
   position: fixed;
-  border-color: #1C0221;
+  border-color: var(--primary-border-color);
   border-width: 5px;
   border-style: solid;
   height: 95vh;
@@ -24,7 +28,7 @@
   height: 30px;
   position: fixed;
   background-color: red;
-  border-color: #1C0221;
+  border-color: var(--primary-border-color);
   border-width: 2px;
   border-style: solid;
   border-radius: 10px;
@@ -40,7 +44,7 @@
   margin: auto;
   margin-top: 40px;
   max-width: 30vh;
-  border-color: #1C0221;
+  border-color: var(--primary-border-color);
   border-width: 1px;
   border-style: solid;
   background-color: #B9F18C;
@@ -52,7 +56,7 @@
   width: 350px;
   height: 50px;
   margin: auto;
-  border-color: #1C0221;
+  border-color: var(--primary-border-color);
   border-width: 2px;
   border-style: solid;
   margin-top: 40px;
@@ -68,7 +72,7 @@
 
 a {
   text-decoration: none;
-  color: #1C0221;
+  color: var(--primary-border-color);
 }
 
 a:hover {
@@ -116,7 +120,7 @@ a:hover {
 
 #rightpanel {
   float: right;
-  border-color: #1C0221;
+  border-color: var(--primary-border-color);
   border-width: 5px;
   border-style: solid;
   height: 95vh;
