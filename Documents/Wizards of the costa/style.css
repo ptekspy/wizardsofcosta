@@ -1,0 +1,187 @@
+#sidebar {
+  position: fixed;
+  border-color: #1C0221;
+  border-width: 5px;
+  border-style: solid;
+  height: 95vh;
+  width: 20vw;
+  text-align: center;
+  background-color: #7B5E7B;
+  border-radius: 25px;
+}
+
+.playerinfo {
+  border-width: 1px;
+  border-color: transparent;
+  border-style: solid;
+  width: 350px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.bar {
+  width: 270px;
+  height: 30px;
+  position: fixed;
+  background-color: red;
+  border-color: #1C0221;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  float: right;
+  display: flex;
+  z-index: 2;
+  top: 368px;
+  left: 80px;
+}
+
+#avatar {
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  max-width: 30vh;
+  border-color: #1C0221;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #B9F18C;
+  border-radius: 25px;
+}
+
+.sideoptions {
+  display: inline-block;
+  width: 350px;
+  height: 50px;
+  margin: auto;
+  border-color: #1C0221;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 40px;
+  background-color: #B9F18C;
+  border-radius: 25px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 40px;
+}
+
+.sideoptions:hover {
+  transform: scale(1.5);
+}
+
+a {
+  text-decoration: none;
+  color: #1C0221;
+}
+
+a:hover {
+  color: #938274;
+}
+
+#icon1 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin-top: 5px;
+  display: flex;
+  margin-right: 0px;
+}
+
+#icon2 {
+  height: 40px;
+  width: 30px;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  margin-top: 5px;
+  display: flex;
+  margin-right: 0px;
+}
+
+#icon3 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 20px;
+  left: 0px;
+  margin-top: 5px;
+  display: flex;
+  margin-right: 0px;
+}
+
+#money {
+  position: fixed;
+  bottom: 410px;
+  left: 85px;
+}
+
+#rightpanel {
+  float: right;
+  border-color: #1C0221;
+  border-width: 5px;
+  border-style: solid;
+  height: 95vh;
+  width: 78.5vw;
+  border-radius: 25px;
+  background-image: url("https://i.pinimg.com/originals/aa/5c/e1/aa5ce1bbb196e94930ee5da0bc4d1a57.jpg");
+  z-index: 0;
+  font-family: 'Carter One', cursive;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.mapicon {
+  position: fixed;
+  border-color: blueviolet;
+  border-width: 5px;
+  width: 50px;
+  height: 50px;
+  border-style: dotted;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#Azura {
+  top: 35%;
+  left: 32%;
+}
+
+#Azura:hover {
+  transform: scale(1.5);
+}
+
+#Valley {
+  top: 85%;
+  left: 62%;
+}
+
+#Valley:hover {
+  transform: scale(1.5);
+}
+
+#Sarthal {
+  top: 45%;
+  left: 72%;
+}
+
+#Sarthal:hover {
+  transform: scale(1.5);
+}
+
+#Whiterun {
+  top: 90%;
+  left: 92%;
+}
+
+#Whiterun:hover {
+  transform: scale(1.5);
+}
+
+#Mohak {
+  top: 70%;
+  left: 52%;
+}
+
+#Mohak:hover {
+  transform: scale(1.5);
+}
